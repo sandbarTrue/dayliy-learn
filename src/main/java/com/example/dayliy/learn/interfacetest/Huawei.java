@@ -1,4 +1,4 @@
 package com.example.dayliy.learn.interfacetest;
 
-public interface TestInterface {
+public class Huawei extends Andriod {
 }
