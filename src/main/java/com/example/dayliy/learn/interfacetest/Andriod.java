@@ -3,7 +3,7 @@ package com.example.dayliy.learn.interfacetest;
 public class Andriod implements Typec, Usb {
     @Override
     public void run(String mType) {
-        System.out.println("Andriod run");
+        System.out.println("Andriod run"+mType);
     }
 
     @Override
@@ -13,6 +13,6 @@ public class Andriod implements Typec, Usb {
 
     @Override
     public void UsbRun(String mType) {
-        System.out.println("Andriod run usb");
+        System.out.println("Andriod run usb"+mType);
     }
 }
